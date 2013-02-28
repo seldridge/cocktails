@@ -5,5 +5,5 @@
 *.bbl
 *.blg
 *.log
-*.gz
+*.syntex.gz
 images
