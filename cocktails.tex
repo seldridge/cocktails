@@ -1,26 +1,27 @@
 % Copyright Schuyler Eldridge, Peter Achenbaum, 2013	
 
 \documentclass{article}
-\usepackage{graphicx,setspace,multicol,array,arydshln,rotating,parcolumns,textpos,showframe}
+\usepackage{graphicx,setspace,multicol,array,arydshln,rotating,parcolumns,textpos,wrapfig}
 \input cocktails.sty
 \graphicspath{{./images/}}
+\title{\vspace{-1in}\rule{\textwidth}{1.5pt}\\\Huge The Short List\vspace{-.5in}}
+
+\date{}
 %SHORTLIST
 \begin{document}
 \pagenumbering{gobble} 
-\begin{textblock}{1}(8,-2)
-\includegraphics{wine.png}
-\end{textblock}
-\begin{textblock}{1}(-0.7,3.6)
-\includegraphics[scale=1]{logo.png}
-\end{textblock}
+\maketitle
+{\begin{wrapfigure}[1]{r}{10in}\vspace{-9.35in}
+\centering\includegraphics{wine.png}
+\end{wrapfigure}}
 
 \begin{tabular}{c;{1pt/2pt}c}
 \begin{tabular}{p{0.45\textwidth}}
 \multicolumn{1}{p{.45\textwidth}}{\centering\huge\textsc{Aviation}}\\ 
    \large\centering 2 oz. Hendrick's, .5 oz. Luxardo Maraschino Liqueur, .5 oz. Creme de Violette, Fresh-Squeezed Lemon Juice. Garnished with a cherry.\\ \normalsize\textit{Consider substituting with Creme Yvette.}
 \end{tabular}
-&
-\\\hdashline[1pt/2pt]
+
+\\\cdashline{1-1}[1pt/2pt]
 \begin{tabular}{p{0.45\textwidth}}
 \multicolumn{1}{p{.45\textwidth}}{\centering\huge\textsc{\begin{spacing}{.25}Christmas Comes\\ Only Once\end{spacing}}}\\ 
    \large\centering 2 oz. Yamakazi 12 Year, 1 oz. Orgeat, .75 oz. Fresh-Squeezed Lemon Juice. Served over crushed ice. \\ \normalsize\textit{"No jokes, I've heard them all."}
@@ -30,8 +31,9 @@
 \multicolumn{1}{p{.45\textwidth}}{\centering\huge\textsc{\begin{spacing}{.25}Earl Grey\\MarTEAni\end{spacing}}}\\ 
    \large\centering1.5 oz. Earl Grey Tanqueray, 1 oz. Simple Syrup, .5 oz. Fresh-Squeezed Lemon Juice, 1 Egg White. Garnished with a twist of lemon.\\ \normalsize\textit{"Every now and then a trigger has to be pulled..."}
 \end{tabular}
-
-\end{tabular}\vspace{1.8in}
+\end{tabular}
+\includegraphics{logo.png}
+\vspace{-.5in}
 
 
 \begin{tabular}{c;{1pt/2pt}c}
@@ -40,43 +42,40 @@
    \large\centering3 oz. Hendrick's, 1 oz. Grey Goose, .5 oz. Cocchi Americano, 1 Dash Lemon Bitters. Shake well until it is ice-cold then strain. Garnished with a twist of lemon. \\ \normalsize\textit{"Friend, bring me one as well. Hold the fruit."}
 \end{tabular}
 &
-\begin{tabular}{p{0.45\textwidth}}
+\begin{tabular}{p{0.45\textwidth}}\\[1pt]
 \multicolumn{1}{p{.45\textwidth}}{\centering\huge\textsc{Machete}} \\ 
    \large\centering2 oz. Jose Cuervo Blanco, 1 oz. Grand Marnier, 1 Fresh-Squeezed Lime, 1 Dash Tabasco Sauce. Garnished with a lime wedge. \\ \normalsize\textit{"You fucked with the wrong Mexican."}
 \end{tabular}\\
-\hdashline[1pt/2pt]
-\begin{tabular}{p{0.45\textwidth}} 
-\centering\Large\textbf{``The problem with the world is that everyone is a few drinks behind.''\\ ...}\\ \LARGE Humphrey Bogart
+\cdashline{2-2}[1pt/2pt]
+\begin{tabular}{||p{0.44\textwidth}||} \hline\hline
+\\\centering\Large\textbf{``The problem with the world is that everyone is a few drinks behind.''\\ ...}\\ \LARGE Humphrey Bogart
 \end{tabular}
 &
 \begin{tabular}{p{0.45\textwidth}}
 \multicolumn{1}{p{.45\textwidth}}{\centering\huge\textsc{\begin{spacing}{.25}New England,\\ Old Fashioned\end{spacing}}} \\ 
    \large\centering2 oz. Bacon Jack Daniels, .5 oz. Grade B Maple Syrup, 2 Dashes Angostura. Garnished with a candied orange peel. \\ 
-\end{tabular}
-\\\hdashline[1pt/2pt]
-\begin{tabular}{p{0.45\textwidth}}
-\multicolumn{1}{p{.45\textwidth}}{\centering\huge\textsc{Risico}} \\ 
+\end{tabular}\\
+\cdashline{2-2}[1pt/2pt]
+\begin{tabular}{p{0.45\textwidth}} \hline\hline\\
+\multicolumn{1}{p{.45\textwidth}}{\centering\huge\textsc{Risico}} \\[1pt]
    \large\centering1 oz. Rear Admiral Joseph, 1 oz. Gran Classico, 1 oz. Lillet Blanc. Garnished with a twist of grapefruit. \\\normalsize\textit{"In this business there is much..."}
 \end{tabular}
 &
 \begin{tabular}{p{0.45\textwidth}}
-\multicolumn{1}{p{.45\textwidth}}{\centering\Huge\textsc{Rehoboth Crush}} \\ 
+\multicolumn{1}{p{.45\textwidth}}{\centering\huge\textsc{Rehoboth Crush}} \\ 
    \large\centering1.5 oz. Dogfish Head Blood Orange Vodka, 1 Fresh-Squeezed Orange, topped with Sprite. Garnished with a orange slice. \\\normalsize\textit{"The Nectar of the Gods."}
 \end{tabular}
 \end{tabular}
+\\[.5in]\vspace{-1in}\rule{\textwidth}{1.5pt}
 \end{document}
-
-
-
-%LONG LIST
-%\begin{document}
+\pagebreak %LONG LIST
 
 \begin{tabular}{p{0.4\textwidth} p{\textwidth}}
 {\huge\textsc{Albert Mathieu}}\\
 \raggedleft 2 oz. Hendrick's, .75 oz. Lillet Blanc, .75 oz. Green Chartreuse, Splash of St. Germain, 1 Dash House Orange Bitters. Garnished with an orange twist. Stirred. &\vspace{-0.1in} \includegraphics{egg_coupe.png}
   \end{tabular}
 \\
-%\\\end{document}
+\\\end{document}
 \begin{parcolumns}[{colwidths={1=0.4\textwidth, 2=0.5\textwidth}}]{2} % DEFINITIONS
 %
   \colchunk[1]{\begin{tabular}{p{0.3\textwidth} p{0.99\textwidth}}
